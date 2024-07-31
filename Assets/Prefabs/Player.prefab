@@ -139,9 +139,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e846eb67d82e994397c8554be64a760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_tasks: []
   TaskCompletionPoints: 0
   m_cardTimeout: 5
+  m_baseCardWidth: 75
 --- !u!1 &2368601335451209403
 GameObject:
   m_ObjectHideFlags: 0

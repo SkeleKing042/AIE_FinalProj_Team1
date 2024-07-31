@@ -19,6 +19,7 @@ namespace ILOVEYOU
             private DisruptCard[] m_cardsHeld;
             public bool CardsInHand { get { return m_cardsHeld.Length > 0; } }
             [SerializeField] private float m_cardTimeout;
+            [SerializeField] private float m_baseCardWidth;
             public bool Startup()
             {
                 //Reset variables
@@ -161,7 +162,7 @@ namespace ILOVEYOU
                 }
                 //To stop stockpiling, delete the cards after a set time
                 Invoke("DiscardHand", m_cardTimeout);
-                //DisplayHand();
+                DisplayHand(cards);
             }
             /// <summary>
             /// Destroys the player's hand card objects
@@ -205,6 +206,52 @@ namespace ILOVEYOU
                 }
                 //Trigger the effects of the chosen card.
                 m_cardsHeld[index].Trigger();
+            }
+
+            private void DisplayHand(DisruptCard[] targets)
+            {
+                Transform camera = GetComponentInChildren<Camera>().transform;
+                bool isOdd = targets.Length % 2 == 1;
+
+                float offset = 0;
+                if (!isOdd)
+                    offset = m_baseCardWidth / 2;
+
+                for (int i = -targets.Length / 2; i <= targets.Length / 2; i++)
+                {
+                    targets[i + targets.Length / 2].transform.localPosition = Vector3.zero;
+                    targets[i + targets.Length / 2].transform.localPosition += new Vector3(m_baseCardWidth * i,0,0);
+                    if(i < 0)
+                    {
+                        targets[i + targets.Length / 2].transform.localPosition -= new Vector3(offset,0,0);
+                    }
+                    if(i > 0)
+                    {
+                        targets[i + targets.Length / 2].transform.localPosition += new Vector3(offset,0,0);
+                    }
+                }
+
+/*                float totalX = 0;
+                foreach (Transform pos in targets)
+                {
+                    totalX += pos.sizeDelta.x * pos.localScale.x;
+                }
+
+                float indivX = totalX / targets.Length;
+
+                    if (!isOdd && i == 0)
+                        i++;
+                    targets[i].anchoredPosition = new Vector2(indivX * i, targets[i].anchoredPosition.y);
+                    if (isOdd)
+                    {
+                        if(i < 0)
+                        {
+                            targets[i].anchoredPosition
+                        }
+                    }
+                }*/
+
+
             }
             #endregion
         }
