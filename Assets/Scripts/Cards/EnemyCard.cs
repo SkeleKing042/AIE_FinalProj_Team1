@@ -17,9 +17,11 @@ namespace ILOVEYOU
                 //get required data
                 GameManager manager = (GameManager)data[0];
                 PlayerManager player = (PlayerManager)data[1];
-                PlayerManager target = manager.GetOtherPlayer(player);
-
-                target.GetLevelManager.GetSpawner.SpawnRandomNumberOfEnemiesFromGroup(m_enemyGroup, m_enemyCount * (int)Mathf.Ceil(GameManager.Instance.PercentToMaxDiff));
+                PlayerManager[] targets = manager.GetOtherPlayer(player);
+                foreach (var target in targets)
+                {
+                   target.GetLevelManager.GetSpawner.SpawnRandomNumberOfEnemiesFromGroup(m_enemyGroup, m_enemyCount * (int)Mathf.Ceil(GameManager.Instance.PercentToMaxDiff));
+                }
                 //target.GetLevelManager.GetSpawner.SpawnEnemyWave();
             }
         }

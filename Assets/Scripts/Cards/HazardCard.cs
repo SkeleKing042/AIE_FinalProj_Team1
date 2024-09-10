@@ -24,67 +24,71 @@ namespace ILOVEYOU
             public void ExecuteEvents(object[] data)
             {
                 PlayerManager player = (PlayerManager)data[1];
-                
-                //creates the requested objects if true
-                if (m_createObjects)
+
+                foreach (PlayerManager target in GameManager.Instance.GetOtherPlayer(player))
                 {
-                    //gets the position of the player
-                    Vector3 enemyPos = GameManager.Instance.GetOtherPlayer(player).transform.position;
-
-                    for (int i = 0; i < m_objectCount; i++)
+                    //creates the requested objects if true
+                    if (m_createObjects)
                     {
-                        GameObject obj = Instantiate(m_hazardObjects[Random.Range(0, m_hazardObjects.Length)]);
-                        bool spawnSuccess = false;
 
-                        for(int j = 0; j < 100; j++)
+                        //gets the position of the player
+                        Vector3 enemyPos = target.transform.position;
+
+                        for (int i = 0; i < m_objectCount; i++)
                         {
-                            obj.transform.position = new(enemyPos.x + Random.Range(-10, 10), enemyPos.y, enemyPos.z + Random.Range(-10, 10));
+                            GameObject obj = Instantiate(m_hazardObjects[Random.Range(0, m_hazardObjects.Length)]);
+                            bool spawnSuccess = false;
 
-                            if (!Physics.CheckSphere(obj.transform.position + new Vector3 (0f, 1f), 1f, m_mask))
+                            for (int j = 0; j < 100; j++)
                             {
-                                spawnSuccess = true;
-                                break;
+                                obj.transform.position = new(enemyPos.x + Random.Range(-10, 10), enemyPos.y, enemyPos.z + Random.Range(-10, 10));
+
+                                if (!Physics.CheckSphere(obj.transform.position + new Vector3(0f, 1f), 1f, m_mask))
+                                {
+                                    spawnSuccess = true;
+                                    break;
+                                }
                             }
+
+                            if (!spawnSuccess)
+                            {
+                                Destroy(obj);
+                                continue;
+                            }
+
+                            obj.GetComponent<HazardObject>().SetTrigger();
+
+                            if (m_objectLifetime > 0) target.GetLevelManager.GetComponent<HazardManager>().AddHazard(obj.GetComponent<HazardObject>(), m_objectLifetime);
+                            else target.GetLevelManager.GetComponent<HazardManager>().AddHazard(obj.GetComponent<HazardObject>());
                         }
-
-                        if (!spawnSuccess)
-                        {
-                            Destroy(obj);
-                            continue;
-                        }
-
-                        obj.GetComponent<HazardObject>().SetTrigger();
-
-                        if (m_objectLifetime > 0) GameManager.Instance.GetOtherPlayer(player).GetLevelManager.GetComponent<HazardManager>().AddHazard(obj.GetComponent<HazardObject>(), m_objectLifetime);
-                        else GameManager.Instance.GetOtherPlayer(player).GetLevelManager.GetComponent<HazardManager>().AddHazard(obj.GetComponent<HazardObject>());
                     }
-                }
 
 
-                //if there aren't any types assigned to the card, activate all hazards
-                if (m_hazardType.Length == 0)
-                {
-                    //if time is inputted, activate hazards for set amount of time
-                    if(m_time > 0) GameManager.Instance.GetOtherPlayer(player).GetLevelManager.GetComponent<HazardManager>().EnableAllHazards(m_time);
-                    //else toggle all hazards on
-                    else GameManager.Instance.GetOtherPlayer(player).GetLevelManager.GetComponent<HazardManager>().EnableAllHazards();
-                }
-                else
-                {
-                    //if time is inputted, activate hazards for set amount of time
-                    if (m_time > 0)
+                    //if there aren't any types assigned to the card, activate all hazards
+                    if (m_hazardType.Length == 0)
                     {
-                        foreach (HazardTypes type in m_hazardType)
-                        {
-                            GameManager.Instance.GetOtherPlayer(player).GetLevelManager.GetComponent<HazardManager>().EnableTypeHazards(type, m_time);
-                        }
+                        //if time is inputted, activate hazards for set amount of time
+                        if (m_time > 0) target.GetLevelManager.GetComponent<HazardManager>().EnableAllHazards(m_time);
+                        //else toggle all hazards on
+                        else target.GetLevelManager.GetComponent<HazardManager>().EnableAllHazards();
                     }
-                    //else toggle all hazards on
                     else
                     {
-                        foreach (HazardTypes type in m_hazardType)
+                        //if time is inputted, activate hazards for set amount of time
+                        if (m_time > 0)
                         {
-                            GameManager.Instance.GetOtherPlayer(player).GetLevelManager.GetComponent<HazardManager>().EnableTypeHazards(type);
+                            foreach (HazardTypes type in m_hazardType)
+                            {
+                                target.GetLevelManager.GetComponent<HazardManager>().EnableTypeHazards(type, m_time);
+                            }
+                        }
+                        //else toggle all hazards on
+                        else
+                        {
+                            foreach (HazardTypes type in m_hazardType)
+                            {
+                                target.GetLevelManager.GetComponent<HazardManager>().EnableTypeHazards(type);
+                            }
                         }
                     }
                 }

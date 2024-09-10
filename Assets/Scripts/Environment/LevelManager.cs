@@ -18,7 +18,7 @@ namespace ILOVEYOU
             //private GameManager m_manager;
             //public GameManager GetManager { get { return m_manager; } }
             [SerializeField] private bool m_debugging;
-            private PlayerManager m_playMan;
+            [SerializeField] private PlayerManager m_playMan;
             private ParticleSpawner m_parSper;
             public bool hasPlayer { get { return m_playMan != null; } }
             public PlayerManager GetPlayer { get { return m_playMan; } }
@@ -27,19 +27,25 @@ namespace ILOVEYOU
             public EnemySpawner GetSpawner { get { return m_enSper; } }
             private HazardManager m_hazMan;
 
-            [Header("Players")]
-            [SerializeField] private Transform m_playerSpawn;
             [Header("Control points")]
             [SerializeField] private List<AreaControlPoint> m_controlPoints;
             [Header("Sequences")]
             [SerializeField] private List<Sequence> m_sequences;
 
+
+            private void Start()
+            {
+                if (!GameManager.Instance)
+                {
+                    Startup(0);
+                }
+            }
             /// <summary>
             /// Setup of scripts vars
             /// </summary>
             /// <param name="gm"></param>
             /// <returns></returns>
-            public bool Startup(PlayerInput player, int index)
+            public bool Startup(int index)
             {
                 if (m_debugging) Debug.Log($"Starting {this}.");
 
@@ -60,7 +66,6 @@ namespace ILOVEYOU
 
                 //player setup
                 if (m_debugging) Debug.Log("Initalizing player.");
-                m_playMan = player.GetComponent<PlayerManager>();
                 if (!m_playMan.Startup(this, index))
                 {
                     Debug.LogError($"{m_playMan} failed startup, aborting...");
@@ -85,11 +90,7 @@ namespace ILOVEYOU
                 //move this to game start
                 //m_playMan.GetTaskManager.AddTask(new(TaskType.Area, 5));
 
-                //move the player to the spawn point
-                if (m_playerSpawn)
-                    m_playMan.transform.SetPositionAndRotation(m_playerSpawn.position, Quaternion.identity);
-                else
-                    m_playMan.transform.SetPositionAndRotation(transform.position, Quaternion.identity);
+                transform.position += new Vector3(250 * index, 0, 0);
 
                 //passed
                 if (m_debugging) Debug.Log($"{this} started successfully.");

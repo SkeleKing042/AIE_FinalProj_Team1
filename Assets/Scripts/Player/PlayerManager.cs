@@ -59,6 +59,10 @@ namespace ILOVEYOU
                 m_playerID = index;
                 m_levelManager = manager;
 
+                //grab inputs
+                GameManager.CloneInput(GameManager.GetPlayerInput(index), gameObject);
+
+
                 if (m_debugging) Debug.Log($"Getting task manager.");
                 m_taskMan = GetComponent<TaskManager>();
                 if (!m_taskMan.Startup())

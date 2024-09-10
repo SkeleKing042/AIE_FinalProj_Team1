@@ -24,26 +24,31 @@ namespace ILOVEYOU
         public class GameManager : MonoBehaviour
         {
             public static GameManager Instance { get; private set; }
+            static private List<PlayerInput> m_inputHouses = new();
+            static public void AddPlayerInput(PlayerInput input) { m_inputHouses.Add(input); }
+            static public PlayerInput GetPlayerInput(int index) { return m_inputHouses[index]; }
+            static public T CloneInput<T>(T original, GameObject target) where T : Component
+            {
+                System.Type type = original.GetType();
+                Component copy = target.AddComponent(type);
+                System.Reflection.FieldInfo[] fields = type.GetFields();
+                foreach(var field in fields)
+                {
+                    field.SetValue(copy, field.GetValue(original));
+                }
+                return copy as T;
+            }
+            static public int NumberOfPlayers { get { return m_inputHouses.Count; } }
+
+            //[SerializeField] private GameSettings m_settings;
+            //public GameSettings GameSettings;
 
             [SerializeField] private bool m_debugging;
 
             //Other managers
-            [SerializeField] private LevelManager m_levelTemplate;
+            //[SerializeField] private LevelManager m_levelTemplate;
             private List<LevelManager> m_levelManagers = new();
             private CardManager m_cardMan;
-            public int NumberOfPlayers
-            {
-                get
-                {
-                    int count = 0;
-                    foreach (LevelManager manager in m_levelManagers)
-                    {
-                        if (manager.hasPlayer)
-                            count++;
-                    }
-                    return count;
-                }
-            }
 
             //Game rules
             [HideInInspector] public bool isPlaying;
@@ -60,15 +65,15 @@ namespace ILOVEYOU
             [Tooltip("The maximum number of tasks a player can have.")]
             [SerializeField] private int m_maxTaskCount;
             [Tooltip("The number of cards shown to the player.\nPLEASE KEEP AT 3")]
-            [SerializeField] private int m_numberOfCardsToGive = 3;
+            private int m_numberOfCardsToGive = 3;
             [SerializeField] private Task[] m_taskList;
             public Task[] GetTasks { get { return m_taskList; } }
 
-            [Header("UI")]
+/*            [Header("UI")]
             [Header("Main Menu")]
             [SerializeField] private GameObject m_mainMenuUI;
             [SerializeField] private TextMeshProUGUI m_reporterTextBox;
-            [SerializeField] private Button m_startButton;
+            [SerializeField] private Button m_startButton;*/
 
             [Header("In-Game Menu")]
             [SerializeField] private GameObject m_InGameSharedUI;
@@ -84,6 +89,12 @@ namespace ILOVEYOU
             [SerializeField] private UnityEvent m_onStartError;
             [SerializeField] private UnityEvent m_onGameEnd;
             [SerializeField] private UnityEvent m_onTaskAssignment;
+
+            public void SetInstances(LevelManager[] instances)
+            {
+                m_levelManagers.AddRange(instances);
+            }
+
             private void Awake()
             {
                 Time.timeScale = 1f;
@@ -106,7 +117,7 @@ namespace ILOVEYOU
                 //passed
                 if (m_debugging) Debug.Log("Game started successfully! Yippee!!");
             }
-            public void OnPlayerJoined(PlayerInput input)
+            /*public void OnPlayerJoined(PlayerInput input)
             {
                 if (m_debugging) Debug.Log("Initializing level");
                 LevelManager newLevel = Instantiate(m_levelTemplate);
@@ -123,22 +134,24 @@ namespace ILOVEYOU
                     Destroy(this);
                     return;
                 }
-            }
+            }*/
             /// <summary>
             /// 
             /// </summary>
             /// <param name="player"></param>
             /// <returns>the opposite player</returns>
-            public PlayerManager GetOtherPlayer(PlayerManager player)
+            public PlayerManager[] GetOtherPlayer(PlayerManager player)
             {
-                if (player == m_levelManagers[0].GetPlayer)
+                PlayerManager[] players = new PlayerManager[NumberOfPlayers - 1];
+                int offset = 0;
+                for(int i = 0; i < NumberOfPlayers; i++)
                 {
-                    return m_levelManagers[1].GetPlayer;
+                    if (m_levelManagers[i].GetPlayer == player && offset == 0)
+                        offset -= 1;
+
+                    players[i] = m_levelManagers[i + offset].GetPlayer;
                 }
-                else
-                {
-                    return m_levelManagers[0].GetPlayer;
-                }
+                return players;
             }
             /// <summary>
             /// function that does the setup for when a player loses
@@ -197,7 +210,7 @@ namespace ILOVEYOU
                     m_timerText.text = $"<color=#{ColorUtility.ToHtmlStringRGB(timeColor)}>{(int)m_timer}</color>";
                     //Debug.Log($"Current difficulty {GetDifficulty}.");
                 }
-                else
+                /*else
                 {
                     string displayText = "Connect contorollers.\n";
                     if (NumberOfPlayers >= 2)
@@ -206,7 +219,7 @@ namespace ILOVEYOU
                         displayText = "";
                     }
                     m_reporterTextBox.text = $"{displayText}{NumberOfPlayers} player(s) connected.";
-                }
+                }*/
             }
             public void AttemptStartGame()
             {
@@ -216,7 +229,7 @@ namespace ILOVEYOU
 
                     if (m_debugging) Debug.Log("There's enough players, starting game.");
                     isPlaying = true;
-                    m_mainMenuUI.SetActive(false);
+                    //m_mainMenuUI.SetActive(false);
                     m_InGameSharedUI.SetActive(true);
                     foreach (LevelManager manager in m_levelManagers)
                     {

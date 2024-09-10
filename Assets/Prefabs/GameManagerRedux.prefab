@@ -582,7 +582,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1904836434026894223}
-  - component: {fileID: 1904836434026894221}
   - component: {fileID: 1904836434026894222}
   - component: {fileID: 1904836434026894208}
   m_Layer: 0
@@ -610,50 +609,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1904836434026894221
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1904836434026894220}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 621567455fd1c4ceb811cc8a00b6a1a5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_NotificationBehavior: 0
-  m_MaxPlayerCount: 2
-  m_AllowJoining: 1
-  m_JoinBehavior: 0
-  m_PlayerJoinedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_PlayerLeftEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_JoinAction:
-    m_UseReference: 0
-    m_Action:
-      m_Name: 
-      m_Type: 0
-      m_ExpectedControlType: 
-      m_Id: 59112104-347e-4b12-a690-d5467317c64c
-      m_Processors: 
-      m_Interactions: 
-      m_SingletonActionBindings: []
-      m_Flags: 0
-    m_Reference: {fileID: 0}
-  m_PlayerPrefab: {fileID: 2304864054761233360, guid: 08c0f8be2a91ee645b1126808b80066f, type: 3}
-  m_SplitScreen: 1
-  m_MaintainAspectRatioInSplitScreen: 0
-  m_FixedNumberOfSplitScreens: -1
-  m_SplitScreenRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
 --- !u!114 &1904836434026894222
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -667,7 +622,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_debugging: 1
-  m_levelTemplate: {fileID: 7541849866350878214, guid: 385d856711731a544bc4934c66233e58, type: 3}
   isPlaying: 0
   m_difficultyCap: 60
   m_spawnTime:
@@ -704,7 +658,6 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   m_maxTaskCount: 1
-  m_numberOfCardsToGive: 3
   m_taskList:
   - m_type: 2
     m_capValue: 5
@@ -712,9 +665,6 @@ MonoBehaviour:
     m_capValue: 10
   - m_type: 3
     m_capValue: 7
-  m_mainMenuUI: {fileID: 3313635825198114888}
-  m_reporterTextBox: {fileID: 59794462908170238}
-  m_startButton: {fileID: 3313635827094131134}
   m_InGameSharedUI: {fileID: 3313635825166902350}
   m_timerText: {fileID: 3313635826375513299}
   m_winScreen: {fileID: 3313635825377527944}
@@ -866,25 +816,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 376225d21a04e8f44a4b29146f9559e3, type: 3}
---- !u!114 &59794462908170238 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5730498585385866050, guid: 376225d21a04e8f44a4b29146f9559e3, type: 3}
-  m_PrefabInstance: {fileID: 5715838295533989052}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &3313635825166902350 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7110861239658760434, guid: 376225d21a04e8f44a4b29146f9559e3, type: 3}
-  m_PrefabInstance: {fileID: 5715838295533989052}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &3313635825198114888 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7110861239660676340, guid: 376225d21a04e8f44a4b29146f9559e3, type: 3}
   m_PrefabInstance: {fileID: 5715838295533989052}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &3313635825377527944 stripped
@@ -935,14 +869,3 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7110861238805249280, guid: 376225d21a04e8f44a4b29146f9559e3, type: 3}
   m_PrefabInstance: {fileID: 5715838295533989052}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &3313635827094131134 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7110861238805249282, guid: 376225d21a04e8f44a4b29146f9559e3, type: 3}
-  m_PrefabInstance: {fileID: 5715838295533989052}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3313635827094131132}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

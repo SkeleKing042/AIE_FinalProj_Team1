@@ -17,9 +17,12 @@ namespace ILOVEYOU
             {
                 GameManager manager = (GameManager)data[0];
                 PlayerManager player = (PlayerManager)data[1];
-                PlayerManager target = manager.GetOtherPlayer(player);
+                PlayerManager[] targets = manager.GetOtherPlayer(player);
 
-                target.TriggerBlindness(m_popupAmount);
+                foreach(PlayerManager target in targets)
+                {
+                    target.TriggerBlindness(m_popupAmount);
+                }
             }
         }
     }
