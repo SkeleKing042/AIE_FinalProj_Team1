@@ -69,21 +69,29 @@ namespace ILOVEYOU
             }*/
             private void OnDrawGizmos()
             {
-                Gizmos.color = Color.blue;
-                Gizmos.DrawSphere(transform.parent.position, 0.25f);
-                if (Application.isPlaying)
+                try
                 {
 
-                    Gizmos.color = Color.yellow;
-                    Gizmos.DrawSphere(_getCorner(m_path.corners.Length - 1), 0.5f);
-                    for (int i = m_path.corners.Length - 2; i > 1; i--)
+                    Gizmos.color = Color.blue;
+                    Gizmos.DrawSphere(transform.parent.position, 0.25f);
+                    if (Application.isPlaying)
                     {
-                        Gizmos.color = Color.red;
-                        Gizmos.DrawSphere(_getCorner(i), 0.25f);
-                    }
-                    Gizmos.color = Color.green;
-                    Gizmos.DrawSphere(_getCorner(1), 0.5f);
 
+                        Gizmos.color = Color.yellow;
+                        Gizmos.DrawSphere(_getCorner(m_path.corners.Length - 1), 0.5f);
+                        for (int i = m_path.corners.Length - 2; i > 1; i--)
+                        {
+                            Gizmos.color = Color.red;
+                            Gizmos.DrawSphere(_getCorner(i), 0.25f);
+                        }
+                        Gizmos.color = Color.green;
+                        Gizmos.DrawSphere(_getCorner(1), 0.5f);
+
+
+                    }
+                }
+                catch
+                {
 
                 }
             }

@@ -170,15 +170,18 @@ namespace ILOVEYOU
             }*/
             private void Update()
             {
-                if (GameManager.Instance.isPlaying)
+                if (GameManager.Instance)
                 {
-                    //Giving cards & tasks cannot be done while the player has cards in their hand
-                    GameManager.Instance.GivePlayerCards(m_playMan);
-                    GameManager.Instance.GivePlayerTasks(m_playMan);
-                    if (!m_playMan.CardsInHand)
+                    if (GameManager.Instance.isPlaying)
                     {
-                        //update any timer tasks
-                        m_playMan.GetTaskManager.UpdateTimers(false);
+                        //Giving cards & tasks cannot be done while the player has cards in their hand
+                        GameManager.Instance.GivePlayerCards(m_playMan);
+                        GameManager.Instance.GivePlayerTasks(m_playMan);
+                        if (!m_playMan.CardsInHand)
+                        {
+                            //update any timer tasks
+                            m_playMan.GetTaskManager.UpdateTimers(false);
+                        }
                     }
                 }
             }

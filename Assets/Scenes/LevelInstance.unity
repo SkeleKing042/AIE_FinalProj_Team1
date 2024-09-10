@@ -138,6 +138,10 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1146677423907829169, guid: 08c0f8be2a91ee645b1126808b80066f, type: 3}
+      propertyPath: m_debugging
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2304864054761233360, guid: 08c0f8be2a91ee645b1126808b80066f, type: 3}
       propertyPath: m_Name
       value: ReduxPlayer
@@ -166,6 +170,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3879512174640564857, guid: 08c0f8be2a91ee645b1126808b80066f, type: 3}
+      propertyPath: m_debugging
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3897715179618402182, guid: 08c0f8be2a91ee645b1126808b80066f, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -190,21 +198,25 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3938092935401869860, guid: 08c0f8be2a91ee645b1126808b80066f, type: 3}
+      propertyPath: m_debugging
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4875622312694227661, guid: 08c0f8be2a91ee645b1126808b80066f, type: 3}
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4875622312694227661, guid: 08c0f8be2a91ee645b1126808b80066f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -8.14
       objectReference: {fileID: 0}
     - target: {fileID: 4875622312694227661, guid: 08c0f8be2a91ee645b1126808b80066f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4875622312694227661, guid: 08c0f8be2a91ee645b1126808b80066f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -8.48
       objectReference: {fileID: 0}
     - target: {fileID: 4875622312694227661, guid: 08c0f8be2a91ee645b1126808b80066f, type: 3}
       propertyPath: m_LocalRotation.w
@@ -563,6 +575,14 @@ PrefabInstance:
       propertyPath: m_playMan
       value: 
       objectReference: {fileID: 1691670932}
+    - target: {fileID: 7541849866350878214, guid: 385d856711731a544bc4934c66233e58, type: 3}
+      propertyPath: m_debugging
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7541849866350878215, guid: 385d856711731a544bc4934c66233e58, type: 3}
+      propertyPath: m_debugging
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8022328388367179697, guid: 385d856711731a544bc4934c66233e58, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
