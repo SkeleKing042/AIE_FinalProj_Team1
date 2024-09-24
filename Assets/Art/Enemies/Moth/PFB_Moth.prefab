@@ -91,6 +91,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MOD_Moth_GEO
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 19bc6be7f8699ee45816dec0ca00be6b, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 8e5ca37d80f9b3e4a92705be0947b092, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19bc6be7f8699ee45816dec0ca00be6b, type: 3}
 --- !u!4 &4621666407305056270 stripped
