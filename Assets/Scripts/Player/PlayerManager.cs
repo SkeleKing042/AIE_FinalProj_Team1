@@ -127,6 +127,7 @@ namespace ILOVEYOU
             }
             private void _autoSelectCard()
             {
+                if(CardsInHand)
                 _executeSelectedCard(1);
             }
             /// <summary>
@@ -175,6 +176,8 @@ namespace ILOVEYOU
             }
             private void _executeSelectedCard(int value)
             {
+                if (!CardsInHand)
+                    return;
                 //Trigger the effects of the chosen card if a valid input was given.
                 if (value > -1)
                 {

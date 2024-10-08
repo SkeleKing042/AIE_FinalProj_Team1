@@ -11,21 +11,21 @@ namespace ILOVEYOU
             [SerializeField] private Material m_blinkMat;
             [SerializeField] private float m_activeTime;
 
-            List<MeshRenderer> m_renderers = new List<MeshRenderer>();
+            List<Renderer> m_renderers = new List<Renderer>();
 
             private void Awake()
             {
-                MeshRenderer ren = GetComponent<MeshRenderer>();
+                Renderer ren = GetComponent<Renderer>();
                 if (ren)
                     m_renderers.Add(ren);
 
-                MeshRenderer[] rens = GetComponentsInChildren<MeshRenderer>();
+                Renderer[] rens = GetComponentsInChildren<Renderer>();
                 if (rens.Length > 0)
                     m_renderers.AddRange(rens);
             }
             public void StartBlink()
             {
-                foreach (MeshRenderer renderer in m_renderers)
+                foreach (Renderer renderer in m_renderers)
                 {
                     List<Material> mats = new();
                     for (int i = 0; i < renderer.materials.Length; i++)
@@ -42,7 +42,7 @@ namespace ILOVEYOU
             }
             public void EndBlink()
             {
-                foreach (MeshRenderer renderer in m_renderers)
+                foreach (Renderer renderer in m_renderers)
                 {
                     List<Material> mats = new();
                     mats.AddRange(renderer.materials);

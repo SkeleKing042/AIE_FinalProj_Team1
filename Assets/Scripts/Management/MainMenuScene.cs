@@ -24,19 +24,24 @@ namespace ILOVEYOU
 
             public void Awake()
             {
+                Time.timeScale = 1;
                 GameManager.ResetScore();
+                for(int i = 0; i < ControllerManager.Instance.ControllerCount && i < m_playerIndis.Length; i++)
+                {
+                    m_playerIndis[i].SetTrigger(m_stringToPassOnJoin);
+                }
             }
             private void Update()
             {
                 if(ControllerManager.Instance.ControllerCount > m_lastPlayerCount)
                 {
                     //controller added
-                    m_playerIndis[ControllerManager.Instance.MostRecentID].SetTrigger("Join");
+                    m_playerIndis[ControllerManager.Instance.MostRecentID].SetTrigger(m_stringToPassOnJoin);
                 }
                 else if(ControllerManager.Instance.ControllerCount < m_lastPlayerCount)
                 {
                     //controller removed
-                    m_playerIndis[ControllerManager.Instance.MostRecentID].SetTrigger("Left");
+                    m_playerIndis[ControllerManager.Instance.MostRecentID].SetTrigger(m_stringToPassOnLeave);
                 }
                 m_lastPlayerCount = (int)ControllerManager.Instance.ControllerCount;
             }

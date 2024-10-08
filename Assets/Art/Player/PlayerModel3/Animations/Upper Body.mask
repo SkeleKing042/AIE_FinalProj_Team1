@@ -1,0 +1,405 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Upper Body
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Core_Jnt
+    m_Weight: 0
+  - m_Path: Core_Jnt/Hips_Jnt
+    m_Weight: 1
+  - m_Path: Core_Jnt/Hips_Jnt/CapeInner_L_Jnt
+    m_Weight: 0
+  - m_Path: Core_Jnt/Hips_Jnt/CapeInner_L_Jnt/CapeInner01_L_Jnt
+    m_Weight: 0
+  - m_Path: Core_Jnt/Hips_Jnt/CapeInner_L_Jnt/CapeInner01_L_Jnt/CapeInner_END
+    m_Weight: 0
+  - m_Path: Core_Jnt/Hips_Jnt/CapeInner_R_Jnt
+    m_Weight: 0
+  - m_Path: Core_Jnt/Hips_Jnt/CapeInner_R_Jnt/CapeInner01_R_Jnt
+    m_Weight: 0
+  - m_Path: Core_Jnt/Hips_Jnt/CapeInner_R_Jnt/CapeInner01_R_Jnt/CapeInner_END
+    m_Weight: 0
+  - m_Path: Core_Jnt/Hips_Jnt/CapeOuter_L_Jnt
+    m_Weight: 0
+  - m_Path: Core_Jnt/Hips_Jnt/CapeOuter_L_Jnt/CapeOuter01_L_Jnt
+    m_Weight: 0
+  - m_Path: Core_Jnt/Hips_Jnt/CapeOuter_L_Jnt/CapeOuter01_L_Jnt/CapeOuter_END
+    m_Weight: 0
+  - m_Path: Core_Jnt/Hips_Jnt/CapeOuter_R_Jnt
+    m_Weight: 0
+  - m_Path: Core_Jnt/Hips_Jnt/CapeOuter_R_Jnt/CapeOuter01_R_Jnt
+    m_Weight: 0
+  - m_Path: Core_Jnt/Hips_Jnt/CapeOuter_R_Jnt/CapeOuter01_R_Jnt/CapeOuter_END
+    m_Weight: 0
+  - m_Path: Core_Jnt/Hips_Jnt/Waist_Jnt
+    m_Weight: 1
+  - m_Path: Core_Jnt/Hips_Jnt/Waist_Jnt/Chest_Jnt
+    m_Weight: 1
+  - m_Path: Core_Jnt/Hips_Jnt/Waist_Jnt/Chest_Jnt/Clavivle_L_Jnt
+    m_Weight: 1
+  - m_Path: Core_Jnt/Hips_Jnt/Waist_Jnt/Chest_Jnt/Clavivle_L_Jnt/Shoulder_L_Jnt
+    m_Weight: 1
+  - m_Path: Core_Jnt/Hips_Jnt/Waist_Jnt/Chest_Jnt/Clavivle_L_Jnt/Shoulder_L_Jnt/Elbow_L_Jnt
+    m_Weight: 1
+  - m_Path: Core_Jnt/Hips_Jnt/Waist_Jnt/Chest_Jnt/Clavivle_L_Jnt/Shoulder_L_Jnt/Elbow_L_Jnt/Wrist_L_Jnt
+    m_Weight: 1
+  - m_Path: Core_Jnt/Hips_Jnt/Waist_Jnt/Chest_Jnt/Clavivle_L_Jnt/Shoulder_L_Jnt/Elbow_L_Jnt/Wrist_L_Jnt/Hand_L_Jnt
+    m_Weight: 1
+  - m_Path: Core_Jnt/Hips_Jnt/Waist_Jnt/Chest_Jnt/Clavivle_L_Jnt/Shoulder_L_Jnt/Elbow_L_Jnt/Wrist_L_Jnt/Hand_L_Jnt/Hand_L_END
+    m_Weight: 1
+  - m_Path: Core_Jnt/Hips_Jnt/Waist_Jnt/Chest_Jnt/Clavivle_L_Jnt/Shoulder_L_Jnt/Elbow_L_Jnt/Wrist_L_Jnt/Hand_L_Jnt/Hand_L_END/LittleFinger_Base_L_Jnt
+    m_Weight: 1
+  - m_Path: Core_Jnt/Hips_Jnt/Waist_Jnt/Chest_Jnt/Clavivle_L_Jnt/Shoulder_L_Jnt/Elbow_L_Jnt/Wrist_L_Jnt/Hand_L_Jnt/Hand_L_END/LittleFinger_Base_L_Jnt/LittleFinger_01_L_Jnt
+    m_Weight: 1
+  - m_Path: Core_Jnt/Hips_Jnt/Waist_Jnt/Chest_Jnt/Clavivle_L_Jnt/Shoulder_L_Jnt/Elbow_L_Jnt/Wrist_L_Jnt/Hand_L_Jnt/Hand_L_END/LittleFinger_Base_L_Jnt/LittleFinger_01_L_Jnt/LittleFinger_02_L_Jnt
+    m_Weight: 1
+  - m_Path: Core_Jnt/Hips_Jnt/Waist_Jnt/Chest_Jnt/Clavivle_L_Jnt/Shoulder_L_Jnt/Elbow_L_Jnt/Wrist_L_Jnt/Hand_L_Jnt/Hand_L_END/LittleFinger_Base_L_Jnt/LittleFinger_01_L_Jnt/LittleFinger_02_L_Jnt/LittleFinger_L_END
+    m_Weight: 1
+  - m_Path: Core_Jnt/Hips_Jnt/Waist_Jnt/Chest_Jnt/Clavivle_L_Jnt/Shoulder_L_Jnt/Elbow_L_Jnt/Wrist_L_Jnt/Hand_L_Jnt/Hand_L_END/MiddleFinger_Base_L_Jnt
+    m_Weight: 1
+  - m_Path: Core_Jnt/Hips_Jnt/Waist_Jnt/Chest_Jnt/Clavivle_L_Jnt/Shoulder_L_Jnt/Elbow_L_Jnt/Wrist_L_Jnt/Hand_L_Jnt/Hand_L_END/MiddleFinger_Base_L_Jnt/MiddleFinger_01_L_Jnt
+    m_Weight: 1
+  - m_Path: Core_Jnt/Hips_Jnt/Waist_Jnt/Chest_Jnt/Clavivle_L_Jnt/Shoulder_L_Jnt/Elbow_L_Jnt/Wrist_L_Jnt/Hand_L_Jnt/Hand_L_END/MiddleFinger_Base_L_Jnt/MiddleFinger_01_L_Jnt/MiddleFinger_02_L_Jnt
+    m_Weight: 1
+  - m_Path: Core_Jnt/Hips_Jnt/Waist_Jnt/Chest_Jnt/Clavivle_L_Jnt/Shoulder_L_Jnt/Elbow_L_Jnt/Wrist_L_Jnt/Hand_L_Jnt/Hand_L_END/MiddleFinger_Base_L_Jnt/MiddleFinger_01_L_Jnt/MiddleFinger_02_L_Jnt/MiddleFinger_L_END
+    m_Weight: 1
+  - m_Path: Core_Jnt/Hips_Jnt/Waist_Jnt/Chest_Jnt/Clavivle_L_Jnt/Shoulder_L_Jnt/Elbow_L_Jnt/Wrist_L_Jnt/Hand_L_Jnt/Hand_L_END/RingFinger_Base_L_Jnt
+    m_Weight: 1
+  - m_Path: Core_Jnt/Hips_Jnt/Waist_Jnt/Chest_Jnt/Clavivle_L_Jnt/Shoulder_L_Jnt/Elbow_L_Jnt/Wrist_L_Jnt/Hand_L_Jnt/Hand_L_END/RingFinger_Base_L_Jnt/RingFinger_01_L_Jnt
+    m_Weight: 1
+  - m_Path: Core_Jnt/Hips_Jnt/Waist_Jnt/Chest_Jnt/Clavivle_L_Jnt/Shoulder_L_Jnt/Elbow_L_Jnt/Wrist_L_Jnt/Hand_L_Jnt/Hand_L_END/RingFinger_Base_L_Jnt/RingFinger_01_L_Jnt/RingFinger_02_L_Jnt
+    m_Weight: 1
+  - m_Path: Core_Jnt/Hips_Jnt/Waist_Jnt/Chest_Jnt/Clavivle_L_Jnt/Shoulder_L_Jnt/Elbow_L_Jnt/Wrist_L_Jnt/Hand_L_Jnt/Hand_L_END/RingFinger_Base_L_Jnt/RingFinger_01_L_Jnt/RingFinger_02_L_Jnt/RingFinger_L_END
+    m_Weight: 1
+  - m_Path: Core_Jnt/Hips_Jnt/Waist_Jnt/Chest_Jnt/Clavivle_L_Jnt/Shoulder_L_Jnt/Elbow_L_Jnt/Wrist_L_Jnt/Hand_L_Jnt/IndexFinger_Base_L_Jnt
+    m_Weight: 1
+  - m_Path: Core_Jnt/Hips_Jnt/Waist_Jnt/Chest_Jnt/Clavivle_L_Jnt/Shoulder_L_Jnt/Elbow_L_Jnt/Wrist_L_Jnt/Hand_L_Jnt/IndexFinger_Base_L_Jnt/IndexFinger_01_L_Jnt
+    m_Weight: 1
+  - m_Path: Core_Jnt/Hips_Jnt/Waist_Jnt/Chest_Jnt/Clavivle_L_Jnt/Shoulder_L_Jnt/Elbow_L_Jnt/Wrist_L_Jnt/Hand_L_Jnt/IndexFinger_Base_L_Jnt/IndexFinger_01_L_Jnt/IndexFinger_02_L_Jnt
+    m_Weight: 1
+  - m_Path: Core_Jnt/Hips_Jnt/Waist_Jnt/Chest_Jnt/Clavivle_L_Jnt/Shoulder_L_Jnt/Elbow_L_Jnt/Wrist_L_Jnt/Hand_L_Jnt/IndexFinger_Base_L_Jnt/IndexFinger_01_L_Jnt/IndexFinger_02_L_Jnt/IndexFinger_L_END
+    m_Weight: 1
+  - m_Path: Core_Jnt/Hips_Jnt/Waist_Jnt/Chest_Jnt/Clavivle_L_Jnt/Shoulder_L_Jnt/Elbow_L_Jnt/Wrist_L_Jnt/Hand_L_Jnt/Thumb_Base_L_Jnt
+    m_Weight: 1
+  - m_Path: Core_Jnt/Hips_Jnt/Waist_Jnt/Chest_Jnt/Clavivle_L_Jnt/Shoulder_L_Jnt/Elbow_L_Jnt/Wrist_L_Jnt/Hand_L_Jnt/Thumb_Base_L_Jnt/Thumb_01_L_Jnt
+    m_Weight: 1
+  - m_Path: Core_Jnt/Hips_Jnt/Waist_Jnt/Chest_Jnt/Clavivle_L_Jnt/Shoulder_L_Jnt/Elbow_L_Jnt/Wrist_L_Jnt/Hand_L_Jnt/Thumb_Base_L_Jnt/Thumb_01_L_Jnt/Thumb_02_L_Jnt
+    m_Weight: 1
+  - m_Path: Core_Jnt/Hips_Jnt/Waist_Jnt/Chest_Jnt/Clavivle_L_Jnt/Shoulder_L_Jnt/Elbow_L_Jnt/Wrist_L_Jnt/Hand_L_Jnt/Thumb_Base_L_Jnt/Thumb_01_L_Jnt/Thumb_02_L_Jnt/Thumb_L_END
+    m_Weight: 1
+  - m_Path: Core_Jnt/Hips_Jnt/Waist_Jnt/Chest_Jnt/Clavivle_R_Jnt
+    m_Weight: 1
+  - m_Path: Core_Jnt/Hips_Jnt/Waist_Jnt/Chest_Jnt/Clavivle_R_Jnt/Shoulder_R_Jnt
+    m_Weight: 1
+  - m_Path: Core_Jnt/Hips_Jnt/Waist_Jnt/Chest_Jnt/Clavivle_R_Jnt/Shoulder_R_Jnt/Elbow_R_Jnt
+    m_Weight: 1
+  - m_Path: Core_Jnt/Hips_Jnt/Waist_Jnt/Chest_Jnt/Clavivle_R_Jnt/Shoulder_R_Jnt/Elbow_R_Jnt/Wrist_R_Jnt
+    m_Weight: 1
+  - m_Path: Core_Jnt/Hips_Jnt/Waist_Jnt/Chest_Jnt/Clavivle_R_Jnt/Shoulder_R_Jnt/Elbow_R_Jnt/Wrist_R_Jnt/Hand_R_Jnt
+    m_Weight: 1
+  - m_Path: Core_Jnt/Hips_Jnt/Waist_Jnt/Chest_Jnt/Clavivle_R_Jnt/Shoulder_R_Jnt/Elbow_R_Jnt/Wrist_R_Jnt/Hand_R_Jnt/Hand_R_END
+    m_Weight: 1
+  - m_Path: Core_Jnt/Hips_Jnt/Waist_Jnt/Chest_Jnt/Clavivle_R_Jnt/Shoulder_R_Jnt/Elbow_R_Jnt/Wrist_R_Jnt/Hand_R_Jnt/Hand_R_END/LittleFinger_Base_R_Jnt
+    m_Weight: 1
+  - m_Path: Core_Jnt/Hips_Jnt/Waist_Jnt/Chest_Jnt/Clavivle_R_Jnt/Shoulder_R_Jnt/Elbow_R_Jnt/Wrist_R_Jnt/Hand_R_Jnt/Hand_R_END/LittleFinger_Base_R_Jnt/LittleFinger_01_R_Jnt
+    m_Weight: 1
+  - m_Path: Core_Jnt/Hips_Jnt/Waist_Jnt/Chest_Jnt/Clavivle_R_Jnt/Shoulder_R_Jnt/Elbow_R_Jnt/Wrist_R_Jnt/Hand_R_Jnt/Hand_R_END/LittleFinger_Base_R_Jnt/LittleFinger_01_R_Jnt/LittleFinger_02_R_Jnt
+    m_Weight: 1
+  - m_Path: Core_Jnt/Hips_Jnt/Waist_Jnt/Chest_Jnt/Clavivle_R_Jnt/Shoulder_R_Jnt/Elbow_R_Jnt/Wrist_R_Jnt/Hand_R_Jnt/Hand_R_END/LittleFinger_Base_R_Jnt/LittleFinger_01_R_Jnt/LittleFinger_02_R_Jnt/LittleFinger_R_END
+    m_Weight: 1
+  - m_Path: Core_Jnt/Hips_Jnt/Waist_Jnt/Chest_Jnt/Clavivle_R_Jnt/Shoulder_R_Jnt/Elbow_R_Jnt/Wrist_R_Jnt/Hand_R_Jnt/Hand_R_END/MiddleFinger_Base_R_Jnt
+    m_Weight: 1
+  - m_Path: Core_Jnt/Hips_Jnt/Waist_Jnt/Chest_Jnt/Clavivle_R_Jnt/Shoulder_R_Jnt/Elbow_R_Jnt/Wrist_R_Jnt/Hand_R_Jnt/Hand_R_END/MiddleFinger_Base_R_Jnt/MiddleFinger_01_R_Jnt
+    m_Weight: 1
+  - m_Path: Core_Jnt/Hips_Jnt/Waist_Jnt/Chest_Jnt/Clavivle_R_Jnt/Shoulder_R_Jnt/Elbow_R_Jnt/Wrist_R_Jnt/Hand_R_Jnt/Hand_R_END/MiddleFinger_Base_R_Jnt/MiddleFinger_01_R_Jnt/MiddleFinger_02_R_Jnt
+    m_Weight: 1
+  - m_Path: Core_Jnt/Hips_Jnt/Waist_Jnt/Chest_Jnt/Clavivle_R_Jnt/Shoulder_R_Jnt/Elbow_R_Jnt/Wrist_R_Jnt/Hand_R_Jnt/Hand_R_END/MiddleFinger_Base_R_Jnt/MiddleFinger_01_R_Jnt/MiddleFinger_02_R_Jnt/MiddleFinger_R_END
+    m_Weight: 1
+  - m_Path: Core_Jnt/Hips_Jnt/Waist_Jnt/Chest_Jnt/Clavivle_R_Jnt/Shoulder_R_Jnt/Elbow_R_Jnt/Wrist_R_Jnt/Hand_R_Jnt/Hand_R_END/RingFinger_Base_R_Jnt
+    m_Weight: 1
+  - m_Path: Core_Jnt/Hips_Jnt/Waist_Jnt/Chest_Jnt/Clavivle_R_Jnt/Shoulder_R_Jnt/Elbow_R_Jnt/Wrist_R_Jnt/Hand_R_Jnt/Hand_R_END/RingFinger_Base_R_Jnt/RingFinger_01_R_Jnt
+    m_Weight: 1
+  - m_Path: Core_Jnt/Hips_Jnt/Waist_Jnt/Chest_Jnt/Clavivle_R_Jnt/Shoulder_R_Jnt/Elbow_R_Jnt/Wrist_R_Jnt/Hand_R_Jnt/Hand_R_END/RingFinger_Base_R_Jnt/RingFinger_01_R_Jnt/RingFinger_02_R_Jnt
+    m_Weight: 1
+  - m_Path: Core_Jnt/Hips_Jnt/Waist_Jnt/Chest_Jnt/Clavivle_R_Jnt/Shoulder_R_Jnt/Elbow_R_Jnt/Wrist_R_Jnt/Hand_R_Jnt/Hand_R_END/RingFinger_Base_R_Jnt/RingFinger_01_R_Jnt/RingFinger_02_R_Jnt/RingFinger_R_END
+    m_Weight: 1
+  - m_Path: Core_Jnt/Hips_Jnt/Waist_Jnt/Chest_Jnt/Clavivle_R_Jnt/Shoulder_R_Jnt/Elbow_R_Jnt/Wrist_R_Jnt/Hand_R_Jnt/IndexFinger_Base_R_Jnt
+    m_Weight: 1
+  - m_Path: Core_Jnt/Hips_Jnt/Waist_Jnt/Chest_Jnt/Clavivle_R_Jnt/Shoulder_R_Jnt/Elbow_R_Jnt/Wrist_R_Jnt/Hand_R_Jnt/IndexFinger_Base_R_Jnt/IndexFinger_01_R_Jnt
+    m_Weight: 1
+  - m_Path: Core_Jnt/Hips_Jnt/Waist_Jnt/Chest_Jnt/Clavivle_R_Jnt/Shoulder_R_Jnt/Elbow_R_Jnt/Wrist_R_Jnt/Hand_R_Jnt/IndexFinger_Base_R_Jnt/IndexFinger_01_R_Jnt/IndexFinger_02_R_Jnt
+    m_Weight: 1
+  - m_Path: Core_Jnt/Hips_Jnt/Waist_Jnt/Chest_Jnt/Clavivle_R_Jnt/Shoulder_R_Jnt/Elbow_R_Jnt/Wrist_R_Jnt/Hand_R_Jnt/IndexFinger_Base_R_Jnt/IndexFinger_01_R_Jnt/IndexFinger_02_R_Jnt/IndexFinger_R_END
+    m_Weight: 1
+  - m_Path: Core_Jnt/Hips_Jnt/Waist_Jnt/Chest_Jnt/Clavivle_R_Jnt/Shoulder_R_Jnt/Elbow_R_Jnt/Wrist_R_Jnt/Hand_R_Jnt/Thumb_Base_R_Jnt
+    m_Weight: 1
+  - m_Path: Core_Jnt/Hips_Jnt/Waist_Jnt/Chest_Jnt/Clavivle_R_Jnt/Shoulder_R_Jnt/Elbow_R_Jnt/Wrist_R_Jnt/Hand_R_Jnt/Thumb_Base_R_Jnt/Thumb_01_R_Jnt
+    m_Weight: 1
+  - m_Path: Core_Jnt/Hips_Jnt/Waist_Jnt/Chest_Jnt/Clavivle_R_Jnt/Shoulder_R_Jnt/Elbow_R_Jnt/Wrist_R_Jnt/Hand_R_Jnt/Thumb_Base_R_Jnt/Thumb_01_R_Jnt/Thumb_02_R_Jnt
+    m_Weight: 1
+  - m_Path: Core_Jnt/Hips_Jnt/Waist_Jnt/Chest_Jnt/Clavivle_R_Jnt/Shoulder_R_Jnt/Elbow_R_Jnt/Wrist_R_Jnt/Hand_R_Jnt/Thumb_Base_R_Jnt/Thumb_01_R_Jnt/Thumb_02_R_Jnt/Thumb_R_END
+    m_Weight: 1
+  - m_Path: Core_Jnt/Hips_Jnt/Waist_Jnt/Chest_Jnt/Neck_Jnt
+    m_Weight: 1
+  - m_Path: Core_Jnt/Hips_Jnt/Waist_Jnt/Chest_Jnt/Neck_Jnt/Neck_Mid_Jnt
+    m_Weight: 1
+  - m_Path: Core_Jnt/Hips_Jnt/Waist_Jnt/Chest_Jnt/Neck_Jnt/Neck_Mid_Jnt/Head_Jnt
+    m_Weight: 1
+  - m_Path: Core_Jnt/Hips_Jnt/Waist_Jnt/Chest_Jnt/Neck_Jnt/Neck_Mid_Jnt/Head_Jnt/Top_END
+    m_Weight: 1
+  - m_Path: Core_Jnt/Thigh_L_Jnt
+    m_Weight: 0
+  - m_Path: Core_Jnt/Thigh_L_Jnt/Knee_L_Jnt
+    m_Weight: 0
+  - m_Path: Core_Jnt/Thigh_L_Jnt/Knee_L_Jnt/Ankle_L_Jnt
+    m_Weight: 0
+  - m_Path: Core_Jnt/Thigh_L_Jnt/Knee_L_Jnt/Ankle_L_Jnt/Foot_L_Jnt
+    m_Weight: 0
+  - m_Path: Core_Jnt/Thigh_L_Jnt/Knee_L_Jnt/Ankle_L_Jnt/Foot_L_Jnt/Toe_L_END
+    m_Weight: 0
+  - m_Path: Core_Jnt/Thigh_R_Jnt
+    m_Weight: 0
+  - m_Path: Core_Jnt/Thigh_R_Jnt/Knee_R_Jnt
+    m_Weight: 0
+  - m_Path: Core_Jnt/Thigh_R_Jnt/Knee_R_Jnt/Ankle_R_Jnt
+    m_Weight: 0
+  - m_Path: Core_Jnt/Thigh_R_Jnt/Knee_R_Jnt/Ankle_R_Jnt/Foot_R_Jnt
+    m_Weight: 0
+  - m_Path: Core_Jnt/Thigh_R_Jnt/Knee_R_Jnt/Ankle_R_Jnt/Foot_R_Jnt/Toe_R_END
+    m_Weight: 0
+  - m_Path: GRP_Player
+    m_Weight: 0
+  - m_Path: GRP_Player/MOD_Character_GEO
+    m_Weight: 0
+  - m_Path: GRP_Player/MOD_Gun
+    m_Weight: 1
+  - m_Path: Master_Ctrl
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/CapeInner_L_Grp
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/CapeInner_L_Grp/CapeInner_L_Ctrl
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/CapeInner_L_Grp/CapeInner_L_Ctrl/CapeInner01_L_Grp
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/CapeInner_L_Grp/CapeInner_L_Ctrl/CapeInner01_L_Grp/CapeInner01_L_Ctrl
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/CapeInner_R_Grp
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/CapeInner_R_Grp/CapeInner_R_Ctrl
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/CapeInner_R_Grp/CapeInner_R_Ctrl/CapeInner01_R_Grp
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/CapeInner_R_Grp/CapeInner_R_Ctrl/CapeInner01_R_Grp/CapeInner01_R_Ctrl
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/CapeOuter_L_Grp
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/CapeOuter_L_Grp/CapeOuter_L_Ctrl
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/CapeOuter_L_Grp/CapeOuter_L_Ctrl/CapeOuter01_L_Grp
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/CapeOuter_L_Grp/CapeOuter_L_Ctrl/CapeOuter01_L_Grp/CapeOuter01_L_Ctrl
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/CapeOuter_R_Grp
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/CapeOuter_R_Grp/CapeOuter_R_Ctrl
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/CapeOuter_R_Grp/CapeOuter_R_Ctrl/CapeOuter01_R_Grp
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/CapeOuter_R_Grp/CapeOuter_R_Ctrl/CapeOuter01_R_Grp/CapeOuter01_R_Ctrl
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/Waist_Grp
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/Waist_Grp/Waist_Ctrl
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/Waist_Grp/Waist_Ctrl/Chest_Grp
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/Waist_Grp/Waist_Ctrl/Chest_Grp/Chest_Ctrl
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/Waist_Grp/Waist_Ctrl/Chest_Grp/Chest_Ctrl/Clavivle_L_Grp
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/Waist_Grp/Waist_Ctrl/Chest_Grp/Chest_Ctrl/Clavivle_L_Grp/Clavivle_L_Ctrl
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/Waist_Grp/Waist_Ctrl/Chest_Grp/Chest_Ctrl/Clavivle_L_Grp/Clavivle_L_Ctrl/Shoulder_L_Grp
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/Waist_Grp/Waist_Ctrl/Chest_Grp/Chest_Ctrl/Clavivle_L_Grp/Clavivle_L_Ctrl/Shoulder_L_Grp/Shoulder_L_Ctrl
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/Waist_Grp/Waist_Ctrl/Chest_Grp/Chest_Ctrl/Clavivle_L_Grp/Clavivle_L_Ctrl/Shoulder_L_Grp/Shoulder_L_Ctrl/Elbow_L_Grp
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/Waist_Grp/Waist_Ctrl/Chest_Grp/Chest_Ctrl/Clavivle_L_Grp/Clavivle_L_Ctrl/Shoulder_L_Grp/Shoulder_L_Ctrl/Elbow_L_Grp/Elbow_L_Ctrl
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/Waist_Grp/Waist_Ctrl/Chest_Grp/Chest_Ctrl/Clavivle_L_Grp/Clavivle_L_Ctrl/Shoulder_L_Grp/Shoulder_L_Ctrl/Elbow_L_Grp/Elbow_L_Ctrl/Wrist_L_Grp
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/Waist_Grp/Waist_Ctrl/Chest_Grp/Chest_Ctrl/Clavivle_L_Grp/Clavivle_L_Ctrl/Shoulder_L_Grp/Shoulder_L_Ctrl/Elbow_L_Grp/Elbow_L_Ctrl/Wrist_L_Grp/Wrist_L_Ctrl
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/Waist_Grp/Waist_Ctrl/Chest_Grp/Chest_Ctrl/Clavivle_L_Grp/Clavivle_L_Ctrl/Shoulder_L_Grp/Shoulder_L_Ctrl/Elbow_L_Grp/Elbow_L_Ctrl/Wrist_L_Grp/Wrist_L_Ctrl/Hand_L_Grp
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/Waist_Grp/Waist_Ctrl/Chest_Grp/Chest_Ctrl/Clavivle_L_Grp/Clavivle_L_Ctrl/Shoulder_L_Grp/Shoulder_L_Ctrl/Elbow_L_Grp/Elbow_L_Ctrl/Wrist_L_Grp/Wrist_L_Ctrl/Hand_L_Grp/Hand_L_Ctrl
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/Waist_Grp/Waist_Ctrl/Chest_Grp/Chest_Ctrl/Clavivle_L_Grp/Clavivle_L_Ctrl/Shoulder_L_Grp/Shoulder_L_Ctrl/Elbow_L_Grp/Elbow_L_Ctrl/Wrist_L_Grp/Wrist_L_Ctrl/Hand_L_Grp/Hand_L_Ctrl/LittleFinger_Base_L_Grp
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/Waist_Grp/Waist_Ctrl/Chest_Grp/Chest_Ctrl/Clavivle_L_Grp/Clavivle_L_Ctrl/Shoulder_L_Grp/Shoulder_L_Ctrl/Elbow_L_Grp/Elbow_L_Ctrl/Wrist_L_Grp/Wrist_L_Ctrl/Hand_L_Grp/Hand_L_Ctrl/LittleFinger_Base_L_Grp/LittleFinger_Base_L_Ctrl
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/Waist_Grp/Waist_Ctrl/Chest_Grp/Chest_Ctrl/Clavivle_L_Grp/Clavivle_L_Ctrl/Shoulder_L_Grp/Shoulder_L_Ctrl/Elbow_L_Grp/Elbow_L_Ctrl/Wrist_L_Grp/Wrist_L_Ctrl/Hand_L_Grp/Hand_L_Ctrl/LittleFinger_Base_L_Grp/LittleFinger_Base_L_Ctrl/LittleFinger_01_L_Grp
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/Waist_Grp/Waist_Ctrl/Chest_Grp/Chest_Ctrl/Clavivle_L_Grp/Clavivle_L_Ctrl/Shoulder_L_Grp/Shoulder_L_Ctrl/Elbow_L_Grp/Elbow_L_Ctrl/Wrist_L_Grp/Wrist_L_Ctrl/Hand_L_Grp/Hand_L_Ctrl/LittleFinger_Base_L_Grp/LittleFinger_Base_L_Ctrl/LittleFinger_01_L_Grp/LittleFinger_01_L_Ctrl
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/Waist_Grp/Waist_Ctrl/Chest_Grp/Chest_Ctrl/Clavivle_L_Grp/Clavivle_L_Ctrl/Shoulder_L_Grp/Shoulder_L_Ctrl/Elbow_L_Grp/Elbow_L_Ctrl/Wrist_L_Grp/Wrist_L_Ctrl/Hand_L_Grp/Hand_L_Ctrl/LittleFinger_Base_L_Grp/LittleFinger_Base_L_Ctrl/LittleFinger_01_L_Grp/LittleFinger_01_L_Ctrl/LittleFinger_02_L_Grp
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/Waist_Grp/Waist_Ctrl/Chest_Grp/Chest_Ctrl/Clavivle_L_Grp/Clavivle_L_Ctrl/Shoulder_L_Grp/Shoulder_L_Ctrl/Elbow_L_Grp/Elbow_L_Ctrl/Wrist_L_Grp/Wrist_L_Ctrl/Hand_L_Grp/Hand_L_Ctrl/LittleFinger_Base_L_Grp/LittleFinger_Base_L_Ctrl/LittleFinger_01_L_Grp/LittleFinger_01_L_Ctrl/LittleFinger_02_L_Grp/LittleFinger_02_L_Ctrl
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/Waist_Grp/Waist_Ctrl/Chest_Grp/Chest_Ctrl/Clavivle_L_Grp/Clavivle_L_Ctrl/Shoulder_L_Grp/Shoulder_L_Ctrl/Elbow_L_Grp/Elbow_L_Ctrl/Wrist_L_Grp/Wrist_L_Ctrl/Hand_L_Grp/Hand_L_Ctrl/MiddleFinger_Base_L_Grp
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/Waist_Grp/Waist_Ctrl/Chest_Grp/Chest_Ctrl/Clavivle_L_Grp/Clavivle_L_Ctrl/Shoulder_L_Grp/Shoulder_L_Ctrl/Elbow_L_Grp/Elbow_L_Ctrl/Wrist_L_Grp/Wrist_L_Ctrl/Hand_L_Grp/Hand_L_Ctrl/MiddleFinger_Base_L_Grp/MiddleFinger_Base_L_Ctrl
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/Waist_Grp/Waist_Ctrl/Chest_Grp/Chest_Ctrl/Clavivle_L_Grp/Clavivle_L_Ctrl/Shoulder_L_Grp/Shoulder_L_Ctrl/Elbow_L_Grp/Elbow_L_Ctrl/Wrist_L_Grp/Wrist_L_Ctrl/Hand_L_Grp/Hand_L_Ctrl/MiddleFinger_Base_L_Grp/MiddleFinger_Base_L_Ctrl/MiddleFinger_01_L_Grp
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/Waist_Grp/Waist_Ctrl/Chest_Grp/Chest_Ctrl/Clavivle_L_Grp/Clavivle_L_Ctrl/Shoulder_L_Grp/Shoulder_L_Ctrl/Elbow_L_Grp/Elbow_L_Ctrl/Wrist_L_Grp/Wrist_L_Ctrl/Hand_L_Grp/Hand_L_Ctrl/MiddleFinger_Base_L_Grp/MiddleFinger_Base_L_Ctrl/MiddleFinger_01_L_Grp/MiddleFinger_01_L_Ctrl
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/Waist_Grp/Waist_Ctrl/Chest_Grp/Chest_Ctrl/Clavivle_L_Grp/Clavivle_L_Ctrl/Shoulder_L_Grp/Shoulder_L_Ctrl/Elbow_L_Grp/Elbow_L_Ctrl/Wrist_L_Grp/Wrist_L_Ctrl/Hand_L_Grp/Hand_L_Ctrl/MiddleFinger_Base_L_Grp/MiddleFinger_Base_L_Ctrl/MiddleFinger_01_L_Grp/MiddleFinger_01_L_Ctrl/MiddleFinger_02_L_Grp
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/Waist_Grp/Waist_Ctrl/Chest_Grp/Chest_Ctrl/Clavivle_L_Grp/Clavivle_L_Ctrl/Shoulder_L_Grp/Shoulder_L_Ctrl/Elbow_L_Grp/Elbow_L_Ctrl/Wrist_L_Grp/Wrist_L_Ctrl/Hand_L_Grp/Hand_L_Ctrl/MiddleFinger_Base_L_Grp/MiddleFinger_Base_L_Ctrl/MiddleFinger_01_L_Grp/MiddleFinger_01_L_Ctrl/MiddleFinger_02_L_Grp/MiddleFinger_02_L_Ctrl
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/Waist_Grp/Waist_Ctrl/Chest_Grp/Chest_Ctrl/Clavivle_L_Grp/Clavivle_L_Ctrl/Shoulder_L_Grp/Shoulder_L_Ctrl/Elbow_L_Grp/Elbow_L_Ctrl/Wrist_L_Grp/Wrist_L_Ctrl/Hand_L_Grp/Hand_L_Ctrl/RingFinger_Base_L_Grp
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/Waist_Grp/Waist_Ctrl/Chest_Grp/Chest_Ctrl/Clavivle_L_Grp/Clavivle_L_Ctrl/Shoulder_L_Grp/Shoulder_L_Ctrl/Elbow_L_Grp/Elbow_L_Ctrl/Wrist_L_Grp/Wrist_L_Ctrl/Hand_L_Grp/Hand_L_Ctrl/RingFinger_Base_L_Grp/RingFinger_Base_L_Ctrl
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/Waist_Grp/Waist_Ctrl/Chest_Grp/Chest_Ctrl/Clavivle_L_Grp/Clavivle_L_Ctrl/Shoulder_L_Grp/Shoulder_L_Ctrl/Elbow_L_Grp/Elbow_L_Ctrl/Wrist_L_Grp/Wrist_L_Ctrl/Hand_L_Grp/Hand_L_Ctrl/RingFinger_Base_L_Grp/RingFinger_Base_L_Ctrl/RingFinger_01_L_Grp
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/Waist_Grp/Waist_Ctrl/Chest_Grp/Chest_Ctrl/Clavivle_L_Grp/Clavivle_L_Ctrl/Shoulder_L_Grp/Shoulder_L_Ctrl/Elbow_L_Grp/Elbow_L_Ctrl/Wrist_L_Grp/Wrist_L_Ctrl/Hand_L_Grp/Hand_L_Ctrl/RingFinger_Base_L_Grp/RingFinger_Base_L_Ctrl/RingFinger_01_L_Grp/RingFinger_01_L_Ctrl
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/Waist_Grp/Waist_Ctrl/Chest_Grp/Chest_Ctrl/Clavivle_L_Grp/Clavivle_L_Ctrl/Shoulder_L_Grp/Shoulder_L_Ctrl/Elbow_L_Grp/Elbow_L_Ctrl/Wrist_L_Grp/Wrist_L_Ctrl/Hand_L_Grp/Hand_L_Ctrl/RingFinger_Base_L_Grp/RingFinger_Base_L_Ctrl/RingFinger_01_L_Grp/RingFinger_01_L_Ctrl/RingFinger_02_L_Grp
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/Waist_Grp/Waist_Ctrl/Chest_Grp/Chest_Ctrl/Clavivle_L_Grp/Clavivle_L_Ctrl/Shoulder_L_Grp/Shoulder_L_Ctrl/Elbow_L_Grp/Elbow_L_Ctrl/Wrist_L_Grp/Wrist_L_Ctrl/Hand_L_Grp/Hand_L_Ctrl/RingFinger_Base_L_Grp/RingFinger_Base_L_Ctrl/RingFinger_01_L_Grp/RingFinger_01_L_Ctrl/RingFinger_02_L_Grp/RingFinger_02_L_Ctrl
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/Waist_Grp/Waist_Ctrl/Chest_Grp/Chest_Ctrl/Clavivle_L_Grp/Clavivle_L_Ctrl/Shoulder_L_Grp/Shoulder_L_Ctrl/Elbow_L_Grp/Elbow_L_Ctrl/Wrist_L_Grp/Wrist_L_Ctrl/IndexFinger_Base_L_Grp
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/Waist_Grp/Waist_Ctrl/Chest_Grp/Chest_Ctrl/Clavivle_L_Grp/Clavivle_L_Ctrl/Shoulder_L_Grp/Shoulder_L_Ctrl/Elbow_L_Grp/Elbow_L_Ctrl/Wrist_L_Grp/Wrist_L_Ctrl/IndexFinger_Base_L_Grp/IndexFinger_Base_L_Ctrl
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/Waist_Grp/Waist_Ctrl/Chest_Grp/Chest_Ctrl/Clavivle_L_Grp/Clavivle_L_Ctrl/Shoulder_L_Grp/Shoulder_L_Ctrl/Elbow_L_Grp/Elbow_L_Ctrl/Wrist_L_Grp/Wrist_L_Ctrl/IndexFinger_Base_L_Grp/IndexFinger_Base_L_Ctrl/IndexFinger_01_L_Grp
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/Waist_Grp/Waist_Ctrl/Chest_Grp/Chest_Ctrl/Clavivle_L_Grp/Clavivle_L_Ctrl/Shoulder_L_Grp/Shoulder_L_Ctrl/Elbow_L_Grp/Elbow_L_Ctrl/Wrist_L_Grp/Wrist_L_Ctrl/IndexFinger_Base_L_Grp/IndexFinger_Base_L_Ctrl/IndexFinger_01_L_Grp/IndexFinger_01_L_Ctrl
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/Waist_Grp/Waist_Ctrl/Chest_Grp/Chest_Ctrl/Clavivle_L_Grp/Clavivle_L_Ctrl/Shoulder_L_Grp/Shoulder_L_Ctrl/Elbow_L_Grp/Elbow_L_Ctrl/Wrist_L_Grp/Wrist_L_Ctrl/IndexFinger_Base_L_Grp/IndexFinger_Base_L_Ctrl/IndexFinger_01_L_Grp/IndexFinger_01_L_Ctrl/IndexFinger_02_L_Grp
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/Waist_Grp/Waist_Ctrl/Chest_Grp/Chest_Ctrl/Clavivle_L_Grp/Clavivle_L_Ctrl/Shoulder_L_Grp/Shoulder_L_Ctrl/Elbow_L_Grp/Elbow_L_Ctrl/Wrist_L_Grp/Wrist_L_Ctrl/IndexFinger_Base_L_Grp/IndexFinger_Base_L_Ctrl/IndexFinger_01_L_Grp/IndexFinger_01_L_Ctrl/IndexFinger_02_L_Grp/IndexFinger_02_L_Ctrl
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/Waist_Grp/Waist_Ctrl/Chest_Grp/Chest_Ctrl/Clavivle_L_Grp/Clavivle_L_Ctrl/Shoulder_L_Grp/Shoulder_L_Ctrl/Elbow_L_Grp/Elbow_L_Ctrl/Wrist_L_Grp/Wrist_L_Ctrl/Thumb_Base_L_Grp
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/Waist_Grp/Waist_Ctrl/Chest_Grp/Chest_Ctrl/Clavivle_L_Grp/Clavivle_L_Ctrl/Shoulder_L_Grp/Shoulder_L_Ctrl/Elbow_L_Grp/Elbow_L_Ctrl/Wrist_L_Grp/Wrist_L_Ctrl/Thumb_Base_L_Grp/Thumb_Base_L_Ctrl
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/Waist_Grp/Waist_Ctrl/Chest_Grp/Chest_Ctrl/Clavivle_L_Grp/Clavivle_L_Ctrl/Shoulder_L_Grp/Shoulder_L_Ctrl/Elbow_L_Grp/Elbow_L_Ctrl/Wrist_L_Grp/Wrist_L_Ctrl/Thumb_Base_L_Grp/Thumb_Base_L_Ctrl/Thumb_01_L_Grp
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/Waist_Grp/Waist_Ctrl/Chest_Grp/Chest_Ctrl/Clavivle_L_Grp/Clavivle_L_Ctrl/Shoulder_L_Grp/Shoulder_L_Ctrl/Elbow_L_Grp/Elbow_L_Ctrl/Wrist_L_Grp/Wrist_L_Ctrl/Thumb_Base_L_Grp/Thumb_Base_L_Ctrl/Thumb_01_L_Grp/Thumb_01_L_Ctrl
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/Waist_Grp/Waist_Ctrl/Chest_Grp/Chest_Ctrl/Clavivle_L_Grp/Clavivle_L_Ctrl/Shoulder_L_Grp/Shoulder_L_Ctrl/Elbow_L_Grp/Elbow_L_Ctrl/Wrist_L_Grp/Wrist_L_Ctrl/Thumb_Base_L_Grp/Thumb_Base_L_Ctrl/Thumb_01_L_Grp/Thumb_01_L_Ctrl/Thumb_02_L_Grp
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/Waist_Grp/Waist_Ctrl/Chest_Grp/Chest_Ctrl/Clavivle_L_Grp/Clavivle_L_Ctrl/Shoulder_L_Grp/Shoulder_L_Ctrl/Elbow_L_Grp/Elbow_L_Ctrl/Wrist_L_Grp/Wrist_L_Ctrl/Thumb_Base_L_Grp/Thumb_Base_L_Ctrl/Thumb_01_L_Grp/Thumb_01_L_Ctrl/Thumb_02_L_Grp/Thumb_02_L_Ctrl
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/Waist_Grp/Waist_Ctrl/Chest_Grp/Chest_Ctrl/Clavivle_R_Grp
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/Waist_Grp/Waist_Ctrl/Chest_Grp/Chest_Ctrl/Clavivle_R_Grp/Clavivle_R_Ctrl
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/Waist_Grp/Waist_Ctrl/Chest_Grp/Chest_Ctrl/Clavivle_R_Grp/Clavivle_R_Ctrl/Shoulder_R_Grp
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/Waist_Grp/Waist_Ctrl/Chest_Grp/Chest_Ctrl/Clavivle_R_Grp/Clavivle_R_Ctrl/Shoulder_R_Grp/Shoulder_R_Ctrl
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/Waist_Grp/Waist_Ctrl/Chest_Grp/Chest_Ctrl/Clavivle_R_Grp/Clavivle_R_Ctrl/Shoulder_R_Grp/Shoulder_R_Ctrl/Elbow_R_Grp
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/Waist_Grp/Waist_Ctrl/Chest_Grp/Chest_Ctrl/Clavivle_R_Grp/Clavivle_R_Ctrl/Shoulder_R_Grp/Shoulder_R_Ctrl/Elbow_R_Grp/Elbow_R_Ctrl
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/Waist_Grp/Waist_Ctrl/Chest_Grp/Chest_Ctrl/Clavivle_R_Grp/Clavivle_R_Ctrl/Shoulder_R_Grp/Shoulder_R_Ctrl/Elbow_R_Grp/Elbow_R_Ctrl/Wrist_R_Grp
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/Waist_Grp/Waist_Ctrl/Chest_Grp/Chest_Ctrl/Clavivle_R_Grp/Clavivle_R_Ctrl/Shoulder_R_Grp/Shoulder_R_Ctrl/Elbow_R_Grp/Elbow_R_Ctrl/Wrist_R_Grp/Wrist_R_Ctrl
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/Waist_Grp/Waist_Ctrl/Chest_Grp/Chest_Ctrl/Clavivle_R_Grp/Clavivle_R_Ctrl/Shoulder_R_Grp/Shoulder_R_Ctrl/Elbow_R_Grp/Elbow_R_Ctrl/Wrist_R_Grp/Wrist_R_Ctrl/Hand_R_END
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/Waist_Grp/Waist_Ctrl/Chest_Grp/Chest_Ctrl/Clavivle_R_Grp/Clavivle_R_Ctrl/Shoulder_R_Grp/Shoulder_R_Ctrl/Elbow_R_Grp/Elbow_R_Ctrl/Wrist_R_Grp/Wrist_R_Ctrl/Hand_R_END/Hand_R_Ctrl
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/Waist_Grp/Waist_Ctrl/Chest_Grp/Chest_Ctrl/Clavivle_R_Grp/Clavivle_R_Ctrl/Shoulder_R_Grp/Shoulder_R_Ctrl/Elbow_R_Grp/Elbow_R_Ctrl/Wrist_R_Grp/Wrist_R_Ctrl/Hand_R_END/Hand_R_Ctrl/LittleFinger_Base_R_Grp
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/Waist_Grp/Waist_Ctrl/Chest_Grp/Chest_Ctrl/Clavivle_R_Grp/Clavivle_R_Ctrl/Shoulder_R_Grp/Shoulder_R_Ctrl/Elbow_R_Grp/Elbow_R_Ctrl/Wrist_R_Grp/Wrist_R_Ctrl/Hand_R_END/Hand_R_Ctrl/LittleFinger_Base_R_Grp/LittleFinger_Base_R_Ctrl
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/Waist_Grp/Waist_Ctrl/Chest_Grp/Chest_Ctrl/Clavivle_R_Grp/Clavivle_R_Ctrl/Shoulder_R_Grp/Shoulder_R_Ctrl/Elbow_R_Grp/Elbow_R_Ctrl/Wrist_R_Grp/Wrist_R_Ctrl/Hand_R_END/Hand_R_Ctrl/LittleFinger_Base_R_Grp/LittleFinger_Base_R_Ctrl/LittleFinger_01_R_Grp
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/Waist_Grp/Waist_Ctrl/Chest_Grp/Chest_Ctrl/Clavivle_R_Grp/Clavivle_R_Ctrl/Shoulder_R_Grp/Shoulder_R_Ctrl/Elbow_R_Grp/Elbow_R_Ctrl/Wrist_R_Grp/Wrist_R_Ctrl/Hand_R_END/Hand_R_Ctrl/LittleFinger_Base_R_Grp/LittleFinger_Base_R_Ctrl/LittleFinger_01_R_Grp/LittleFinger_01_R_Ctrl
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/Waist_Grp/Waist_Ctrl/Chest_Grp/Chest_Ctrl/Clavivle_R_Grp/Clavivle_R_Ctrl/Shoulder_R_Grp/Shoulder_R_Ctrl/Elbow_R_Grp/Elbow_R_Ctrl/Wrist_R_Grp/Wrist_R_Ctrl/Hand_R_END/Hand_R_Ctrl/LittleFinger_Base_R_Grp/LittleFinger_Base_R_Ctrl/LittleFinger_01_R_Grp/LittleFinger_01_R_Ctrl/LittleFinger_02_R_Grp
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/Waist_Grp/Waist_Ctrl/Chest_Grp/Chest_Ctrl/Clavivle_R_Grp/Clavivle_R_Ctrl/Shoulder_R_Grp/Shoulder_R_Ctrl/Elbow_R_Grp/Elbow_R_Ctrl/Wrist_R_Grp/Wrist_R_Ctrl/Hand_R_END/Hand_R_Ctrl/LittleFinger_Base_R_Grp/LittleFinger_Base_R_Ctrl/LittleFinger_01_R_Grp/LittleFinger_01_R_Ctrl/LittleFinger_02_R_Grp/LittleFinger_02_R_Ctrl
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/Waist_Grp/Waist_Ctrl/Chest_Grp/Chest_Ctrl/Clavivle_R_Grp/Clavivle_R_Ctrl/Shoulder_R_Grp/Shoulder_R_Ctrl/Elbow_R_Grp/Elbow_R_Ctrl/Wrist_R_Grp/Wrist_R_Ctrl/Hand_R_END/Hand_R_Ctrl/MiddleFinger_Base_R_Grp
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/Waist_Grp/Waist_Ctrl/Chest_Grp/Chest_Ctrl/Clavivle_R_Grp/Clavivle_R_Ctrl/Shoulder_R_Grp/Shoulder_R_Ctrl/Elbow_R_Grp/Elbow_R_Ctrl/Wrist_R_Grp/Wrist_R_Ctrl/Hand_R_END/Hand_R_Ctrl/MiddleFinger_Base_R_Grp/MiddleFinger_Base_R_Ctrl
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/Waist_Grp/Waist_Ctrl/Chest_Grp/Chest_Ctrl/Clavivle_R_Grp/Clavivle_R_Ctrl/Shoulder_R_Grp/Shoulder_R_Ctrl/Elbow_R_Grp/Elbow_R_Ctrl/Wrist_R_Grp/Wrist_R_Ctrl/Hand_R_END/Hand_R_Ctrl/MiddleFinger_Base_R_Grp/MiddleFinger_Base_R_Ctrl/MiddleFinger_01_R_Grp
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/Waist_Grp/Waist_Ctrl/Chest_Grp/Chest_Ctrl/Clavivle_R_Grp/Clavivle_R_Ctrl/Shoulder_R_Grp/Shoulder_R_Ctrl/Elbow_R_Grp/Elbow_R_Ctrl/Wrist_R_Grp/Wrist_R_Ctrl/Hand_R_END/Hand_R_Ctrl/MiddleFinger_Base_R_Grp/MiddleFinger_Base_R_Ctrl/MiddleFinger_01_R_Grp/MiddleFinger_01_R_Ctrl
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/Waist_Grp/Waist_Ctrl/Chest_Grp/Chest_Ctrl/Clavivle_R_Grp/Clavivle_R_Ctrl/Shoulder_R_Grp/Shoulder_R_Ctrl/Elbow_R_Grp/Elbow_R_Ctrl/Wrist_R_Grp/Wrist_R_Ctrl/Hand_R_END/Hand_R_Ctrl/MiddleFinger_Base_R_Grp/MiddleFinger_Base_R_Ctrl/MiddleFinger_01_R_Grp/MiddleFinger_01_R_Ctrl/MiddleFinger_02_R_Grp
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/Waist_Grp/Waist_Ctrl/Chest_Grp/Chest_Ctrl/Clavivle_R_Grp/Clavivle_R_Ctrl/Shoulder_R_Grp/Shoulder_R_Ctrl/Elbow_R_Grp/Elbow_R_Ctrl/Wrist_R_Grp/Wrist_R_Ctrl/Hand_R_END/Hand_R_Ctrl/MiddleFinger_Base_R_Grp/MiddleFinger_Base_R_Ctrl/MiddleFinger_01_R_Grp/MiddleFinger_01_R_Ctrl/MiddleFinger_02_R_Grp/MiddleFinger_02_R_Ctrl
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/Waist_Grp/Waist_Ctrl/Chest_Grp/Chest_Ctrl/Clavivle_R_Grp/Clavivle_R_Ctrl/Shoulder_R_Grp/Shoulder_R_Ctrl/Elbow_R_Grp/Elbow_R_Ctrl/Wrist_R_Grp/Wrist_R_Ctrl/Hand_R_END/Hand_R_Ctrl/RingFinger_Base_R_Grp
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/Waist_Grp/Waist_Ctrl/Chest_Grp/Chest_Ctrl/Clavivle_R_Grp/Clavivle_R_Ctrl/Shoulder_R_Grp/Shoulder_R_Ctrl/Elbow_R_Grp/Elbow_R_Ctrl/Wrist_R_Grp/Wrist_R_Ctrl/Hand_R_END/Hand_R_Ctrl/RingFinger_Base_R_Grp/RingFinger_Base_R_Ctrl
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/Waist_Grp/Waist_Ctrl/Chest_Grp/Chest_Ctrl/Clavivle_R_Grp/Clavivle_R_Ctrl/Shoulder_R_Grp/Shoulder_R_Ctrl/Elbow_R_Grp/Elbow_R_Ctrl/Wrist_R_Grp/Wrist_R_Ctrl/Hand_R_END/Hand_R_Ctrl/RingFinger_Base_R_Grp/RingFinger_Base_R_Ctrl/RingFinger_01_R_Grp
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/Waist_Grp/Waist_Ctrl/Chest_Grp/Chest_Ctrl/Clavivle_R_Grp/Clavivle_R_Ctrl/Shoulder_R_Grp/Shoulder_R_Ctrl/Elbow_R_Grp/Elbow_R_Ctrl/Wrist_R_Grp/Wrist_R_Ctrl/Hand_R_END/Hand_R_Ctrl/RingFinger_Base_R_Grp/RingFinger_Base_R_Ctrl/RingFinger_01_R_Grp/RingFinger_01_R_Ctrl
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/Waist_Grp/Waist_Ctrl/Chest_Grp/Chest_Ctrl/Clavivle_R_Grp/Clavivle_R_Ctrl/Shoulder_R_Grp/Shoulder_R_Ctrl/Elbow_R_Grp/Elbow_R_Ctrl/Wrist_R_Grp/Wrist_R_Ctrl/Hand_R_END/Hand_R_Ctrl/RingFinger_Base_R_Grp/RingFinger_Base_R_Ctrl/RingFinger_01_R_Grp/RingFinger_01_R_Ctrl/RingFinger_02_R_Grp
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/Waist_Grp/Waist_Ctrl/Chest_Grp/Chest_Ctrl/Clavivle_R_Grp/Clavivle_R_Ctrl/Shoulder_R_Grp/Shoulder_R_Ctrl/Elbow_R_Grp/Elbow_R_Ctrl/Wrist_R_Grp/Wrist_R_Ctrl/Hand_R_END/Hand_R_Ctrl/RingFinger_Base_R_Grp/RingFinger_Base_R_Ctrl/RingFinger_01_R_Grp/RingFinger_01_R_Ctrl/RingFinger_02_R_Grp/RingFinger_02_R_Ctrl
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/Waist_Grp/Waist_Ctrl/Chest_Grp/Chest_Ctrl/Clavivle_R_Grp/Clavivle_R_Ctrl/Shoulder_R_Grp/Shoulder_R_Ctrl/Elbow_R_Grp/Elbow_R_Ctrl/Wrist_R_Grp/Wrist_R_Ctrl/IndexFinger_Base_R_Grp
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/Waist_Grp/Waist_Ctrl/Chest_Grp/Chest_Ctrl/Clavivle_R_Grp/Clavivle_R_Ctrl/Shoulder_R_Grp/Shoulder_R_Ctrl/Elbow_R_Grp/Elbow_R_Ctrl/Wrist_R_Grp/Wrist_R_Ctrl/IndexFinger_Base_R_Grp/IndexFinger_Base_R_Ctrl
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/Waist_Grp/Waist_Ctrl/Chest_Grp/Chest_Ctrl/Clavivle_R_Grp/Clavivle_R_Ctrl/Shoulder_R_Grp/Shoulder_R_Ctrl/Elbow_R_Grp/Elbow_R_Ctrl/Wrist_R_Grp/Wrist_R_Ctrl/IndexFinger_Base_R_Grp/IndexFinger_Base_R_Ctrl/IndexFinger_01_R_Grp
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/Waist_Grp/Waist_Ctrl/Chest_Grp/Chest_Ctrl/Clavivle_R_Grp/Clavivle_R_Ctrl/Shoulder_R_Grp/Shoulder_R_Ctrl/Elbow_R_Grp/Elbow_R_Ctrl/Wrist_R_Grp/Wrist_R_Ctrl/IndexFinger_Base_R_Grp/IndexFinger_Base_R_Ctrl/IndexFinger_01_R_Grp/IndexFinger_01_R_Ctrl
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/Waist_Grp/Waist_Ctrl/Chest_Grp/Chest_Ctrl/Clavivle_R_Grp/Clavivle_R_Ctrl/Shoulder_R_Grp/Shoulder_R_Ctrl/Elbow_R_Grp/Elbow_R_Ctrl/Wrist_R_Grp/Wrist_R_Ctrl/IndexFinger_Base_R_Grp/IndexFinger_Base_R_Ctrl/IndexFinger_01_R_Grp/IndexFinger_01_R_Ctrl/IndexFinger_02_R_Grp
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/Waist_Grp/Waist_Ctrl/Chest_Grp/Chest_Ctrl/Clavivle_R_Grp/Clavivle_R_Ctrl/Shoulder_R_Grp/Shoulder_R_Ctrl/Elbow_R_Grp/Elbow_R_Ctrl/Wrist_R_Grp/Wrist_R_Ctrl/IndexFinger_Base_R_Grp/IndexFinger_Base_R_Ctrl/IndexFinger_01_R_Grp/IndexFinger_01_R_Ctrl/IndexFinger_02_R_Grp/IndexFinger_02_R_Ctrl
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/Waist_Grp/Waist_Ctrl/Chest_Grp/Chest_Ctrl/Clavivle_R_Grp/Clavivle_R_Ctrl/Shoulder_R_Grp/Shoulder_R_Ctrl/Elbow_R_Grp/Elbow_R_Ctrl/Wrist_R_Grp/Wrist_R_Ctrl/Thumb_Base_R_Grp
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/Waist_Grp/Waist_Ctrl/Chest_Grp/Chest_Ctrl/Clavivle_R_Grp/Clavivle_R_Ctrl/Shoulder_R_Grp/Shoulder_R_Ctrl/Elbow_R_Grp/Elbow_R_Ctrl/Wrist_R_Grp/Wrist_R_Ctrl/Thumb_Base_R_Grp/Thumb_Base_R_Ctrl
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/Waist_Grp/Waist_Ctrl/Chest_Grp/Chest_Ctrl/Clavivle_R_Grp/Clavivle_R_Ctrl/Shoulder_R_Grp/Shoulder_R_Ctrl/Elbow_R_Grp/Elbow_R_Ctrl/Wrist_R_Grp/Wrist_R_Ctrl/Thumb_Base_R_Grp/Thumb_Base_R_Ctrl/Thumb_01_R_Grp
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/Waist_Grp/Waist_Ctrl/Chest_Grp/Chest_Ctrl/Clavivle_R_Grp/Clavivle_R_Ctrl/Shoulder_R_Grp/Shoulder_R_Ctrl/Elbow_R_Grp/Elbow_R_Ctrl/Wrist_R_Grp/Wrist_R_Ctrl/Thumb_Base_R_Grp/Thumb_Base_R_Ctrl/Thumb_01_R_Grp/Thumb_01_R_Ctrl
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/Waist_Grp/Waist_Ctrl/Chest_Grp/Chest_Ctrl/Clavivle_R_Grp/Clavivle_R_Ctrl/Shoulder_R_Grp/Shoulder_R_Ctrl/Elbow_R_Grp/Elbow_R_Ctrl/Wrist_R_Grp/Wrist_R_Ctrl/Thumb_Base_R_Grp/Thumb_Base_R_Ctrl/Thumb_01_R_Grp/Thumb_01_R_Ctrl/Thumb_02_R_Grp
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/Waist_Grp/Waist_Ctrl/Chest_Grp/Chest_Ctrl/Clavivle_R_Grp/Clavivle_R_Ctrl/Shoulder_R_Grp/Shoulder_R_Ctrl/Elbow_R_Grp/Elbow_R_Ctrl/Wrist_R_Grp/Wrist_R_Ctrl/Thumb_Base_R_Grp/Thumb_Base_R_Ctrl/Thumb_01_R_Grp/Thumb_01_R_Ctrl/Thumb_02_R_Grp/Thumb_02_R_Ctrl
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/Waist_Grp/Waist_Ctrl/Chest_Grp/Chest_Ctrl/Neck_Grp
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/Waist_Grp/Waist_Ctrl/Chest_Grp/Chest_Ctrl/Neck_Grp/Neck_Ctrl
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/Waist_Grp/Waist_Ctrl/Chest_Grp/Chest_Ctrl/Neck_Grp/Neck_Ctrl/Neck_Mid_Grp
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/Waist_Grp/Waist_Ctrl/Chest_Grp/Chest_Ctrl/Neck_Grp/Neck_Ctrl/Neck_Mid_Grp/Neck_Mid_Ctrl
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/Waist_Grp/Waist_Ctrl/Chest_Grp/Chest_Ctrl/Neck_Grp/Neck_Ctrl/Neck_Mid_Grp/Neck_Mid_Ctrl/Head_Grp
+    m_Weight: 0
+  - m_Path: Master_Ctrl/Core_Grp/Core_JNT/Hips_Grp/Hips_Ctrl/Waist_Grp/Waist_Ctrl/Chest_Grp/Chest_Ctrl/Neck_Grp/Neck_Ctrl/Neck_Mid_Grp/Neck_Mid_Ctrl/Head_Grp/Head_Ctrl
+    m_Weight: 0

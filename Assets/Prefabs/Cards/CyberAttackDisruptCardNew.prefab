@@ -138,5 +138,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56761a81ac8db9f49bac614f63d034bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_effectsToGive: 00000000
+  m_effectsToGive: 0000000004000000
   m_effectsToGiveSelf: 

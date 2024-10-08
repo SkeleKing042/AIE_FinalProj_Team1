@@ -18,6 +18,7 @@ namespace ILOVEYOU
         public class PlayerControls : MonoBehaviour
         {
             [SerializeField] private bool m_debugging;
+            
             private PlayerManager m_plaMa;
             private Rigidbody m_rb;
 
@@ -26,9 +27,7 @@ namespace ILOVEYOU
             private float m_health;
             [SerializeField] private float m_iframesTotal = 1f; //this is in seconds
             private float m_iframesCurrent;
-
-            //[SerializeField] private GameObject m_debuffParticleTemp; //THIS IS TEMPORARY LOOK AT:
-                                                                      //https://app.hacknplan.com/p/207724/kanban?categoryId=0&boardId=573892&taskId=172&tabId=description
+            [SerializeField] private Animator m_anim; //animator should be located on the player model
 
             [Header("Movement")]
             [SerializeField] private float m_moveSpeed;
@@ -148,7 +147,6 @@ namespace ILOVEYOU
             }
             public void Update()
             {
-
                 Color tmp_color = Color.blue;
                 if (m_aimMagnitude >= m_aimDeadZone && m_allowShooting)
                 {
@@ -165,9 +163,16 @@ namespace ILOVEYOU
                     //updates cooldowns
                     m_pattern.PatternUpdate();
 
+                    //update animator
+                    m_anim.SetBool("Shooting", true);
+                }
+                else
+                {
+                    //update animator
+                    m_anim.SetBool("Shooting", false);
                 }
                 m_iframesCurrent = Mathf.Clamp(m_iframesCurrent - Time.deltaTime, 0f, m_iframesTotal);
-                if (m_debugging) Debug.DrawRay(transform.position, m_aimDir * m_aimMagnitude * 5, tmp_color);
+                if (m_debugging) Debug.DrawRay(transform.position, 5 * m_aimMagnitude * m_aimDir, tmp_color);
                 //Apply direction to the player object
                 m_rb.velocity = m_moveDir * m_moveSpeed;
             }
@@ -177,6 +182,15 @@ namespace ILOVEYOU
                 m_moveDir = value.Get<Vector2>();
                 m_moveDir = new Vector3(m_moveDir.x, 0, m_moveDir.y);
                 if (m_debugging) Debug.Log($"Moving {gameObject} by {m_moveDir}.");
+
+                //Converts movement into angle
+                float moveAngle = Mathf.Rad2Deg * Mathf.Atan2(m_moveDir.x, m_moveDir.z);
+                //gets quaternions to convert to vectors
+                Quaternion moveQ = Quaternion.Euler(0f, moveAngle, 0f);
+                Quaternion shütQ = m_facingObject.rotation;
+                //sets required animation variables
+                m_anim.SetFloat("moveX", (moveQ * Quaternion.Inverse(shütQ) * Vector3.forward * m_moveDir.magnitude).x);
+                m_anim.SetFloat("moveZ", (moveQ * Quaternion.Inverse(shütQ) * Vector3.forward * m_moveDir.magnitude).z);
             }
             public void OnFire(InputValue value)
             {
